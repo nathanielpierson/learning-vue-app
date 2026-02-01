@@ -66,7 +66,7 @@ body {
 #app {
   min-height: 100vh;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ff8c42 0%, #d28d1e 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +84,7 @@ body {
 
 h1 {
   margin-top: 0;
-  color: #333;
+  color: #8b4513;
   text-align: center;
   font-size: 2rem;
 }
@@ -96,7 +96,7 @@ h1 {
 label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #555;
+  color: #4e2c13;
   font-weight: 500;
 }
 
@@ -111,7 +111,7 @@ input[type="number"] {
 
 input[type="number"]:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #ff8c42;
 }
 
 .results-section {
@@ -119,14 +119,14 @@ input[type="number"]:focus {
 }
 
 h2 {
-  color: #333;
+  color: #8b4513;
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
 .multiples-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   list-style: none;
   padding: 0;
@@ -134,17 +134,18 @@ h2 {
 }
 
 .multiples-list li {
-  background: #f0f0f0;
+  background: #ffe4cc;
   padding: 0.75rem;
   text-align: center;
   border-radius: 6px;
   font-weight: 500;
-  color: #333;
+  color: #8b4513;
   transition: background-color 0.2s;
+  border: 1px solid #ff8c42;
 }
 
 .multiples-list li:hover {
-  background: #e0e0e0;
+  background: #ffd4a3;
 }
 
 .no-results {
